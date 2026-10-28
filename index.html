@@ -2,48 +2,251 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Portfolio</title>
-    <link rel="stylesheet" href="assets/css/style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Akshaya Tejomurthula's portfolio showcasing software development, AI, cloud, DevOps and projects.">
+  <title>Akshaya Tejomurthula | Portfolio</title>
+  <link rel="stylesheet" href="assets/css/style.css">
 </head>
 <body>
-    <header>
-        <h2>My Portfolio</h2>
-        <nav>
-            <a href="#home">Home</a>
-            <a href="#about">About</a>
-            <a href="#projects">Projects</a>
-            <a href="#contact">Contact</a>
-        </nav>
-    </header>
+  <header class="navbar">
+    <a href="#home" class="logo"><span>&lt;/&gt;</span> Akshaya</a>
+    <nav aria-label="Main navigation">
+      <a href="#home">Home</a>
+      <a href="#about">About</a>
+      <a href="#skills">Skills</a>
+      <a href="#projects">Projects</a>
+      <a href="#leetcode">LeetCode</a>
+      <a href="#certificates">Certificates</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
 
-    <section id="home" class="hero">
-        <h1>Hello, I'm a Computer Science Student</h1>
-        <p>Welcome to my personal portfolio website.</p>
-    </section>
+  <main>
+    <!-- HERO -->
+    <section class="hero section-wrap" id="home">
+      <div class="hero-content">
+        <p class="eyebrow">WELCOME TO MY PORTFOLIO</p>
+        <h1>Hello, I'm <span>Akshaya<br>Tejomurthula</span></h1>
+        <h2>CSE Student <span class="muted">|</span> AI Enthusiast <span class="muted">|</span> AWS Learner</h2>
+        <p class="intro">
+          Passionate about Artificial Intelligence, Cloud Computing, DevOps,
+          Full Stack Development and solving real-world problems through technology.
+        </p>
 
-    <section id="about">
-        <h2>About Me</h2>
-        <p>I am passionate about programming, web development, and DevOps.</p>
-    </section>
-
-    <section id="projects">
-        <h2>My Projects</h2>
-        <div class="project-card">
-            <h3>Dockerized Portfolio Website</h3>
-            <p>A portfolio website deployed using Docker and automated with Jenkins.</p>
+        <div class="hero-buttons">
+          <a class="btn primary" href="#projects">Explore My Projects ↗</a>
+          <a class="btn secondary" href="#contact">Contact Me</a>
         </div>
+
+        <div class="social-links">
+          <a href="https://github.com/Akshayatejomurthula" target="_blank" rel="noopener noreferrer">GitHub ↗</a>
+          <a href="https://www.linkedin.com/in/tejomurthula-akshaya-4a5a62330" target="_blank" rel="noopener noreferrer">LinkedIn ↗</a>
+          <a href="https://leetcode.com/u/Tejomurthula_akshaya/" target="_blank" rel="noopener noreferrer">LeetCode ↗</a>
+        </div>
+      </div>
+
+      <div class="hero-visual" aria-label="Developer illustration">
+        <div class="orbit orbit-one"></div>
+        <div class="orbit orbit-two"></div>
+        <div class="avatar">
+          <span class="avatar-symbol">&lt;/&gt;</span>
+          <span class="avatar-emoji">👩🏻‍💻</span>
+          <span class="avatar-caption">BUILD · LEARN · CREATE</span>
+        </div>
+        <div class="floating-card card-top">☁️ Cloud &amp; AI</div>
+        <div class="floating-card card-bottom">💻 Developer in progress</div>
+      </div>
     </section>
 
-    <section id="contact">
-        <h2>Contact Me</h2>
-        <p>Email: your-email@example.com</p>
-        <p>GitHub: <a href="https://github.com/">Visit GitHub</a></p>
+    <!-- ABOUT -->
+    <section class="section section-wrap" id="about">
+      <div class="section-heading">
+        <p class="eyebrow">GET TO KNOW ME</p>
+        <h2>About <span>Me</span></h2>
+      </div>
+
+      <div class="about-grid">
+        <div class="about-copy">
+          <p>
+            I'm Akshaya Tejomurthula, a Computer Science and Engineering student
+            at Gayatri Vidya Parishad College of Engineering for Women (A), Visakhapatnam.
+          </p>
+          <p>
+            I enjoy exploring AI, cloud technologies, software development and DevOps.
+            Through hands-on projects, certifications and problem-solving practice,
+            I aim to turn ideas into useful applications and keep improving my technical skills.
+          </p>
+          <p>
+            My long-term goal is to become a skilled software developer and build
+            technology solutions that make a difference.
+          </p>
+        </div>
+
+        <div class="info-grid">
+          <article class="info-card">
+            <span>🎓</span>
+            <h3>Education</h3>
+            <p>B.Tech · CSE</p>
+            <small>2024–2028</small>
+          </article>
+          <article class="info-card">
+            <span>📍</span>
+            <h3>Location</h3>
+            <p>Visakhapatnam</p>
+            <small>Andhra Pradesh, India</small>
+          </article>
+          <article class="info-card">
+            <span>⭐</span>
+            <h3>CGPA</h3>
+            <p>9.23</p>
+            <small>As currently reported</small>
+          </article>
+          <article class="info-card">
+            <span>🚀</span>
+            <h3>Interests</h3>
+            <p>AI · Cloud · DevOps</p>
+            <small>Always learning</small>
+          </article>
+        </div>
+      </div>
     </section>
 
-    <footer>
-        <p>&copy; 2026 My Portfolio</p>
-    </footer>
+    <!-- SKILLS -->
+    <section class="section section-wrap" id="skills">
+      <div class="section-heading">
+        <p class="eyebrow">WHAT I WORK WITH</p>
+        <h2>Technical <span>Skills</span></h2>
+        <p>Technologies I'm learning and using in my projects.</p>
+      </div>
+
+      <div class="skills-grid">
+        <div class="skill-card"><span class="skill-icon">☕</span><span>Java</span></div>
+        <div class="skill-card"><span class="skill-icon">🐍</span><span>Python</span></div>
+        <div class="skill-card"><span class="skill-icon">©️</span><span>C</span></div>
+        <div class="skill-card"><span class="skill-icon">⚙️</span><span>C++</span></div>
+        <div class="skill-card"><span class="skill-icon">🌐</span><span>HTML &amp; CSS</span></div>
+        <div class="skill-card"><span class="skill-icon">🟨</span><span>JavaScript</span></div>
+        <div class="skill-card"><span class="skill-icon">⚛️</span><span>React</span></div>
+        <div class="skill-card"><span class="skill-icon">🟢</span><span>Node.js</span></div>
+        <div class="skill-card"><span class="skill-icon">🗄️</span><span>SQL</span></div>
+        <div class="skill-card"><span class="skill-icon">🐙</span><span>Git &amp; GitHub</span></div>
+        <div class="skill-card"><span class="skill-icon">🐳</span><span>Docker</span></div>
+        <div class="skill-card"><span class="skill-icon">☁️</span><span>AWS</span></div>
+        <div class="skill-card"><span class="skill-icon">🐧</span><span>Linux</span></div>
+        <div class="skill-card"><span class="skill-icon">🔧</span><span>DevOps</span></div>
+      </div>
+    </section>
+
+    <!-- PROJECTS -->
+    <section class="section section-wrap" id="projects">
+      <div class="section-heading">
+        <p class="eyebrow">WHAT I'VE BEEN BUILDING</p>
+        <h2>Featured <span>Projects</span></h2>
+      </div>
+
+      <div class="projects-grid">
+        <article class="project-card">
+          <div class="project-icon">☁️</div>
+          <p class="project-type">CLOUD COMPUTING</p>
+          <h3>AWS Infrastructure Project</h3>
+          <p>Exploring AWS services and cloud infrastructure concepts to understand scalable and reliable deployments.</p>
+          <div class="tags"><span>AWS</span><span>Cloud</span></div>
+          <a href="https://github.com/Akshayatejomurthula" target="_blank" rel="noopener noreferrer">Explore code ↗</a>
+        </article>
+
+        <article class="project-card">
+          <div class="project-icon">🐍</div>
+          <p class="project-type">AUTOMATION</p>
+          <h3>Python Automation</h3>
+          <p>Python scripts designed to simplify repetitive tasks and practise programming, logic and automation.</p>
+          <div class="tags"><span>Python</span><span>Automation</span></div>
+          <a href="https://github.com/Akshayatejomurthula" target="_blank" rel="noopener noreferrer">Explore code ↗</a>
+        </article>
+
+        <article class="project-card">
+          <div class="project-icon">🌐</div>
+          <p class="project-type">WEB DEVELOPMENT &amp; DEVOPS</p>
+          <h3>Dockerized Portfolio Website</h3>
+          <p>A responsive personal website packaged with Docker and Nginx, with GitHub, Jenkins and Kubernetes CI/CD integration.</p>
+          <div class="tags"><span>HTML/CSS</span><span>Docker</span><span>Jenkins</span></div>
+          <a href="https://github.com/324103210217akshaya/portfolio-cicd" target="_blank" rel="noopener noreferrer">Project repository ↗</a>
+        </article>
+      </div>
+    </section>
+
+    <!-- LEETCODE -->
+    <section class="section section-wrap" id="leetcode">
+      <div class="leetcode-card">
+        <div>
+          <p class="eyebrow">PRACTICE · PROGRESS · PERSISTENCE</p>
+          <h2>My LeetCode <span>Journey</span> 🚀</h2>
+          <p>Regularly practising Data Structures and Algorithms to strengthen problem-solving skills and programming fundamentals.</p>
+          <a class="btn primary" href="https://leetcode.com/u/Tejomurthula_akshaya/" target="_blank" rel="noopener noreferrer">Visit My LeetCode ↗</a>
+        </div>
+        <div class="leetcode-stat">
+          <span>🧩</span>
+          <strong>DSA</strong>
+          <small>Keep solving</small>
+        </div>
+      </div>
+    </section>
+
+    <!-- CERTIFICATES -->
+    <section class="section section-wrap" id="certificates">
+      <div class="section-heading">
+        <p class="eyebrow">MY LEARNING JOURNEY</p>
+        <h2>Certificates &amp; <span>Achievements</span></h2>
+      </div>
+
+      <div class="certificates-grid">
+        <article class="certificate-card">
+          <span>☁️</span>
+          <div><h3>Generative AI Foundations</h3><p>AWS Academy</p></div>
+        </article>
+        <article class="certificate-card">
+          <span>🏅</span>
+          <div><h3>Cloud Practitioner Badge</h3><p>AWS Cloud Quest</p></div>
+        </article>
+        <article class="certificate-card">
+          <span>💻</span>
+          <div><h3>JavaScript Fundamentals</h3><p>Infosys</p></div>
+        </article>
+        <article class="certificate-card">
+          <span>🟢</span>
+          <div><h3>Node.js Backend Development</h3><p>Infosys</p></div>
+        </article>
+        <article class="certificate-card">
+          <span>📊</span>
+          <div><h3>Data Processing &amp; Visualisation</h3><p>NASSCOM</p></div>
+        </article>
+        <article class="certificate-card">
+          <span>📚</span>
+          <div><h3>Competitive Programming</h3><p>NPTEL</p></div>
+        </article>
+      </div>
+      <p class="note">Add links or images of your certificates here when you are ready.</p>
+    </section>
+
+    <!-- CONTACT -->
+    <section class="section section-wrap contact-section" id="contact">
+      <div class="section-heading">
+        <p class="eyebrow">LET'S CONNECT</p>
+        <h2>Get In <span>Touch</span></h2>
+        <p>Have a project idea or want to connect? Reach out through the links below.</p>
+      </div>
+
+      <div class="contact-links">
+        <a href="mailto:akshayatejomurthula07@gmail.com"><span>✉️</span>Email Me</a>
+        <a href="https://github.com/Akshayatejomurthula" target="_blank" rel="noopener noreferrer"><span>🐙</span>GitHub</a>
+        <a href="https://www.linkedin.com/in/tejomurthula-akshaya-4a5a62330" target="_blank" rel="noopener noreferrer"><span>💼</span>LinkedIn</a>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>Designed with 💙 by Akshaya Tejomurthula</p>
+    <p>© 2026 · Built with HTML, CSS and Docker</p>
+  </footer>
 </body>
 </html>
